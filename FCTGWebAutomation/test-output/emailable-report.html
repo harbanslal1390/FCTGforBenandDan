@@ -9,18 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,245</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,458</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">FCTG_HomePage.HomePage</td><td><a href="#m0">verifyLabelName</a></td><td rowspan="1">1724737762734</td><td rowspan="1">20</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">FCTG_HomePage.HomePage</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1724737762763</td><td rowspan="1">266</td></tr><tr class="passedeven"><td><a href="#m2">openBrowser</a></td><td rowspan="1">1724737760839</td><td rowspan="1">1890</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">FCTG_HomePage.HomePage</td><td><a href="#m0">verifyLabelNameNegative</a></td><td rowspan="1">1724821505661</td><td rowspan="1">12</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">FCTG_HomePage.HomePage</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1724821504466</td><td rowspan="1">1189</td></tr><tr class="passedeven"><td><a href="#m2">openBrowser</a></td><td rowspan="1">1724821501293</td><td rowspan="1">3151</td></tr><tr class="passedeven"><td><a href="#m3">verifyLabelNamePositive</a></td><td rowspan="1">1724821504454</td><td rowspan="1">9</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">FCTG_HomePage.HomePage#verifyLabelName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Email address:1] but found [Email address:]
+<h2>Default test</h2><h3 id="m0">FCTG_HomePage.HomePage#verifyLabelNameNegative</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Email address:1] but found [Email address:]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at FCTG_HomePage.HomePage.verifyLabelName(HomePage.java:27)
+	at FCTG_HomePage.HomePage.verifyLabelNameNegative(HomePage.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -50,5 +50,6 @@
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">FCTG_HomePage.HomePage#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">FCTG_HomePage.HomePage#openBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">FCTG_HomePage.HomePage#verifyLabelNamePositive</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -21,11 +21,20 @@ public void openBrowser()
 			
 	}
 	@Test (priority = 2)
-	public void verifyLabelName()
+	public void verifyLabelNamePositive()
+	{
+		System.out.println(abc);
+		org.testng.Assert.assertEquals(abc, "Email address:");
+	}
+	@Test (priority = 3)
+	public void verifyLabelNameNegative()
 	{
 		System.out.println(abc);
 		org.testng.Assert.assertEquals(abc, "Email address:1");
 	}
+	
+	
+	
 	@Test (priority = 3)
 	public void closeBrowser()
 	{
